@@ -1,0 +1,95 @@
+alimentation;manger;restaurant;{
+		salon de thé;
+		choucroute;
+		chinois;
+		[thaïlandais;thai];
+		italien;
+		mexicain;
+		français;
+		[viêtnamien;viet];
+		[japonais;jap];
+		traditionnel;
+		allemand;
+		boulangerie;
+		pâtisserie;
+		fritûre;
+		winstub;
+		choucroute;
+		[flammenkueche;tarte flambée];
+		salade;
+		saucisse;
+		glace;}
+
+fast food;{
+	[macdo;McDonald’s;MacDo;macdonalds;domac;];
+	[KFC;kfc;Kentucky Fried Chicken;];
+	[hamburger;burger];
+	pizza;
+	crêperie;
+	[grec;turc;doner kebab; kebab;]}
+
+boire;{
+	prendre un verre;
+	café;
+	thé;
+	cocktail;
+	bière}
+
+aller;{}
+ 
+transports;
+	{gare;
+	station;
+	bus;
+	train;
+	taxi;
+	[velhop; velib; vélo];}
+	
+
+regarder;voir;{
+	cinéma; 
+	théâtre;
+	pièce;
+	opéra;
+	concert;
+	comédie;}
+
+acheter;
+	{courses;
+	vêtements;
+	mode;
+	souvenirs;
+	shopping;}
+
+
+retirer; {
+	dab;
+	distributeur;
+	argent;
+	banque;
+	ATM;}
+
+soin;
+	{médicament;
+	hôpital;
+	pharmacie;
+	garde;
+	urgence;
+	pompiers;
+	samu;
+	police;
+	gendarmerie;}
+
+voiture;
+	{garer;
+	essence;
+	sp95;
+	sp98;
+	diesel;
+	plein;
+	station;
+	électrique;}
+
+dormir;se reposer;{hôtel;
+		chambre;}
+
