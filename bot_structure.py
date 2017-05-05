@@ -1,11 +1,15 @@
 import re
 import sys
 import argparse
+import sqlite3
+import csv
+import os
+
 class Bot:
     
     def __init__(self):
             self.nom = "Vlad"
-            self.memoire = []
+            self.memoire = list()
             
     def repondre(self, texte):
         reponse = Element_Texte(texte)
@@ -21,6 +25,9 @@ class Element_Texte:
         self.wichtig = []
         self.place = 0
         #Element_Texte.place +=1
+        
+    def retour_premier_mot (self):
+        return self.mot[0]
         
     def initDecision(self):
         
@@ -84,5 +91,26 @@ if __name__ == '__main__':
     
     bot = Bot()
     print(bot.repondre(args.text).mot)
+    
+    element = Element_Texte("La fin justifie les moyens")
+    print(element.retour_premier_mot())
+    
+    dico = dict()
+    i = 0
+    with open("lefff-3.4.mlex", "r") as filepointer:
+    
+        for line in filepointer:
+            j = i
+            while j == i:
+                try:
+                    #print(i)
+                    cut = filepointer.readline().split("\t")
+                    #print(cut)
+                    dico[cut[0]] = cut[2]
+                    i+=1
+                except :
+                    i+=1
+                    continue    
+        print(dico['donnera'])
     
     sys.exit(main(sys.argv))
